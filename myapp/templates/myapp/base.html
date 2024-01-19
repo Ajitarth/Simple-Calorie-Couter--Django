@@ -1,0 +1,31 @@
+<!-- myapp/base.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="shadow-lg">
+        <div class="flex flex-wrap justify-between ml-5 items-center mx-auto px-4 py-2.5">
+            <a href="" class="flex items-center">
+                <img class="h-10 mr-3" src="https://cdn0.iconfinder.com/data/icons/business-1-45/7762/1-Buy_And_Sell-512.png" alt="">
+                <a href="{% url 'intro' %}" class="margin-left-2
+                 text-xml font-semibold">Calorie Counter</a>
+            </a>
+            <div class="flex items-center">
+                <a href="{% url 'tracker' %}" class="mr-6 text-sm font-medium text-grey-500">Tracker</a>
+                <a href="" class="mr-6 text-sm font-medium text-grey-500">My Profile</a>
+                <a href="" class="mr-6 text-sm font-medium text-grey-500">Logout</a>
+            </div>
+        </div>
+    </nav>
+
+    <div id="content">
+        {% block body %}{% endblock %}
+    </div>
+</body>
+</html>
