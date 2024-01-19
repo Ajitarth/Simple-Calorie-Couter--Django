@@ -1,1 +1,3 @@
 Struggling to shed weight, I found most calorie counter apps on the App Store demanding payment. Faced with the challenge of managing my daily macros, I decided to take matters into my own hands. Armed with determination, I embarked on building my own calorie counter. Crafting an intuitive tool to track calories and macros, it not only aids my weight loss journey but serves as a free resource for others facing similar financial constraints. Empowering ourselves to make healthier choices shouldn't be hindered by financial barriers. My homemade calorie counter is a testament to resourcefulness and the pursuit of a healthier lifestyle for all.
+
+There are still some issues on the front end which I might update steadily.
